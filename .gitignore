@@ -1,0 +1,41 @@
+#--------------------------
+# Virtual environments
+#--------------------------
+venv/
+.env/
+
+#--------------------------
+#Python files
+#--------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+#--------------------------
+# Logs and results
+#--------------------------
+inspection_log.csv
+*.log
+
+#--------------------------
+# Temporary files / cache
+#--------------------------
+*.tmp
+*.bak
+
+#--------------------------
+# Input folders (test images)
+#--------------------------
+input_stream/
+
+#--------------------------
+# Images generated/results
+#--------------------------
+output/
+results/
+
+#--------------------------
+# System configuration
+#--------------------------
+.DS_Store
+Thumbs.db
